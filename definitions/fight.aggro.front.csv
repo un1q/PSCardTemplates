@@ -1,0 +1,8 @@
+count	name	pos1	pos2	pos3	pos4	special
+1	lorem	protector	warrior	warrior	artillery	all players and enemies suffer 2 dmg
+1	lorem	protector	warrior	warrior	sniper	all players and enemies suffer 2 dmg
+1	lorem	warrior	warrior	artillery	protector	all players suffer 2 dmg, all enemies gain stun
+1	lorem	warrior	warrior	sniper	protector	all players suffer 2 dmg, all enemies gain stun
+1	lorem	warrior	warrior	sniper	artillery	all enemies gain 1 shield
+1	lorem	warrior	warrior	artillery	artillery	all enemies gain 1 shield
+1	lorem	warrior	warrior	warrior	protector	move all enemies to next position, last enemy goes into first position

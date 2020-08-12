@@ -1,0 +1,6 @@
+count	name	attack1	attack2
+4	warrior	dmg 2	dmd 1 + stun
+1	artillery	dmg 2 + mark	all: dmg 1
+1	wall	dmg 1	shield 2
+1	sniper	dmg 1 + 2 if marked	mark and stun
+1	protector	shield 1	shield 3

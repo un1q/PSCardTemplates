@@ -1,0 +1,54 @@
+{
+	"width": 410,
+	"front": [{
+		"CSV": "fight.aggro.front.csv",
+		"template": "templates\\5linesTemplate.svg",
+		"countColumn": "count",
+		"outputDir": "generated\\fights.aggro\\front",
+		"atlasPath": "generated\\fights.aggro\\fights.aggro.atlas",
+		"replace": [{
+				"search": "#ffeebb",
+				"value": "#c093c0"
+			}, {
+				"search": "%name%",
+				"column": "name"
+			}, {
+				"search": "%type%",
+				"value": "fight: aggro"
+			}, {
+				"search": "%line1%",
+				"column": "pos1"
+			}, {
+				"search": "%line2%",
+				"column": "pos2"
+			}, {
+				"search": "%line3%",
+				"column": "pos3"
+			}, {
+				"search": "%line4%",
+				"column": "pos4"
+			}, {
+				"search": "%line5%",
+				"column": "special"
+						}
+		]
+	}],
+	"back": {
+		"CSV": null,
+		"template": "templates\\customBack.svg",
+		"countColumn": null,
+		"outputDir": "generated\\fights.aggro",
+		"atlasPath": null,
+		"replace": [{
+				"search": "sodipodi:sides=\"5\"",
+				"value": "sodipodi:sides=\"8\""
+			}, {
+				"search": "%type%",
+				"value": "fight: aggro"
+			},{
+				"search": "#ffeebb",
+				"value": "#c093c0"
+			}
+		]
+	}
+}
