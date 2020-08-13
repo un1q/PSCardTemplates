@@ -1,46 +1,26 @@
 {
-    "width": 410,
-    "multi": [{
-        "CSV": "attack.front.A.csv",
+    "width": 408,
+    "front": {
+        "CSV": "attack.front.csv",
         "template": "templates\\customTemplate.svg",
         "countColumn": "count",
-        "outputDir": "generated\\attack\\frontA",
-        "atlasPath": "generated\\attack\\attack.atlas.A",
+        "outputDir": "generated\\attack\\front",
+        "atlasPath": "generated\\attack\\attack.atlas",
         "replace": [{
                 "search": "#ffeebb",
                 "value": "#c0c0ff"
             }, {
-                "search": "%name%",
-                "column": "name"
-            }, {
                 "search": "%type%",
                 "value": "attack"
-            }, {
-                "search": "%text%",
-                "column": "text"
-				}
-        ]
-    },{
-        "CSV": "attack.front.B.csv",
-        "template": "templates\\customTemplate.svg",
-        "countColumn": "count",
-        "outputDir": "generated\\attack\\frontB",
-        "atlasPath": "generated\\attack\\attack.atlas.B",
-        "replace": [{
-                "search": "#ffeebb",
-                "value": "#c0c0ff"
             }, {
                 "search": "%name%",
                 "column": "name"
             }, {
-                "search": "%type%",
-                "value": "attack"
-            }, {
                 "search": "%text%",
                 "column": "text"
-				}
+            }
         ]
-    }],
+    },
     "back": {
         "CSV": null,
         "template": "templates\\customBack.svg",
@@ -53,7 +33,7 @@
             }, {
                 "search": "%type%",
                 "value": "attack"
-            },{
+            }, {
                 "search": "#ffeebb",
                 "value": "#c0c0ff"
             }

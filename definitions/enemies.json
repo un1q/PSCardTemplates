@@ -1,35 +1,35 @@
 {
     "width": 408,
     "front": {
-        "CSV": "fight.front.csv",
+        "CSV": "enemies.front.csv",
         "template": "templates\\5linesTemplate.svg",
         "countColumn": "count",
-        "outputDir": "generated\\fights\\front",
-        "atlasPath": "generated\\fights\\fights.atlas",
+        "outputDir": "generated\\enemies\\front",
+        "atlasPath": "generated\\enemies\\enemies.atlas",
         "replace": [{
                 "search": "#ffeebb",
-                "value": "#c093c0"
+                "value": "#ff9343"
             }, {
                 "search": "%name%",
                 "column": "name"
             }, {
                 "search": "%type%",
-                "value": "fight: aggro"
+                "value": "aggro"
             }, {
                 "search": "%line1%",
-                "column": "pos1"
+                "value": "attack 1"
             }, {
                 "search": "%line2%",
-                "column": "pos2"
+                "column": "attack1"
             }, {
                 "search": "%line3%",
-                "column": "pos3"
+                "value": " "
             }, {
                 "search": "%line4%",
-                "column": "pos4"
+                "value": "attack 2"
             }, {
                 "search": "%line5%",
-                "column": "special"
+                "column": "attack2"
             }
         ]
     },
@@ -37,17 +37,17 @@
         "CSV": null,
         "template": "templates\\customBack.svg",
         "countColumn": null,
-        "outputDir": "generated\\fights",
+        "outputDir": "generated\\enemies",
         "atlasPath": null,
         "replace": [{
                 "search": "sodipodi:sides=\"5\"",
-                "value": "sodipodi:sides=\"8\""
+                "value": "sodipodi:sides=\"4\""
             }, {
                 "search": "%type%",
-                "value": "fight: aggro"
+                "value": "enemy"
             }, {
                 "search": "#ffeebb",
-                "value": "#c093c0"
+                "value": "#ff9343"
             }
         ]
     }
