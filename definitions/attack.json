@@ -29,7 +29,7 @@
         "atlasPath": null,
         "replace": [{
                 "search": "sodipodi:sides=\"5\"",
-                "value": "sodipodi:sides=\"2\""
+                "value": "sodipodi:sides=\"3\""
             }, {
                 "search": "%type%",
                 "value": "attack"
